@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+:root {
+    --main-color: #eedb00;
+    --bg-color-gray: rgba(60, 69, 67, 0.6);
+    --btn-color: rgba(204, 3, 35, 0.5);
+}
+
+body {
+    font-family: "Poller One", sans-serif;
+    background-image: url("./assets/sky.jpg");
+    color: var(--main-color);
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: var(--bg-color-gray);
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+/* header {
+    border-radius: 16px 16px 0 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+nav {
+    position: fixed;
+    top: 5px;
+    left: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    margin: 0.3rem 1.2rem 0 0;
+}
+
+.left img {
+    box-shadow: 0.6rem 0.6rem 0.6rem gray;
+    width: 100%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    border: 1px solid var(--main-color);
+    border-radius: 0 0 16px 16px;
+    margin: 0.3rem 0 0 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.right img {
+    width: 33%;
+    margin: calc(1% / 6) 0;
+}
+
+.right > h2 {
+    text-align: center;
+    flex-basis: 100%;
+}
+
+
+
+.rounded-bottom-left {
+    border-bottom-left-radius: 16px;
+}
+
+.rounded-bottom-right {
+    border-bottom-right-radius: 16px;
+}
+
+
+
+footer .button {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: rgba(204, 3, 35, 0.5);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0.3em 0.6em;
+    border-radius: 5px;
+} */
+
+.btn-danger {
+    background-color: var(--btn-color);
+    
+    color: var(--main-color);
+}
+
+.far-galaxy {
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+main > .float-start {
+    box-shadow: 0.6rem 0.6rem 0.6rem gray;
+}
+
+footer {
+    height: 5rem;    
+}
