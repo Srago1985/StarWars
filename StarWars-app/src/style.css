@@ -116,6 +116,10 @@ footer .button {
     text-align: left;
 }
 
+.opening-crawl {
+    white-space: pre-line;
+}
+
 main > .float-start {
     box-shadow: 0.6rem 0.6rem 0.6rem gray;
 }
